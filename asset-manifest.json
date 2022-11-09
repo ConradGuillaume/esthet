@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/esthet/static/css/main.08e5b10c.css",
-    "main.js": "/esthet/static/js/main.a3365ecc.js",
+    "main.css": "/esthet/static/css/main.b2f24014.css",
+    "main.js": "/esthet/static/js/main.c14cf699.js",
+    "static/media/massage3.jpg": "/esthet/static/media/massage3.4d43a7b8a3341a517605.jpg",
+    "static/media/esthétique.jpg": "/esthet/static/media/esthétique.bedc0aba6c434bad567f.jpg",
     "static/media/JosefinSans-ExtraLight.ttf": "/esthet/static/media/JosefinSans-ExtraLight.6173372a87f9785d3540.ttf",
     "static/media/JosefinSans-Regular.ttf": "/esthet/static/media/JosefinSans-Regular.c2462bfe030916f43ab4.ttf",
     "static/media/JosefinSans-Bold.ttf": "/esthet/static/media/JosefinSans-Bold.5cc7b0d19c96e8c83733.ttf",
+    "static/media/galerie.jpg": "/esthet/static/media/galerie.38b1ac634d0de62e22f5.jpg",
     "static/media/massage.jpg": "/esthet/static/media/massage.486dadbe0b65fe5db495.jpg",
     "index.html": "/esthet/index.html",
-    "main.08e5b10c.css.map": "/esthet/static/css/main.08e5b10c.css.map",
-    "main.a3365ecc.js.map": "/esthet/static/js/main.a3365ecc.js.map"
+    "main.b2f24014.css.map": "/esthet/static/css/main.b2f24014.css.map",
+    "main.c14cf699.js.map": "/esthet/static/js/main.c14cf699.js.map"
   },
   "entrypoints": [
-    "static/css/main.08e5b10c.css",
-    "static/js/main.a3365ecc.js"
+    "static/css/main.b2f24014.css",
+    "static/js/main.c14cf699.js"
   ]
 }
