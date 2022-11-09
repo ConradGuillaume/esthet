@@ -33,9 +33,7 @@ const Massage = () => {
           <p>Prix€</p>
         </article>
       </div>
-      <div className="img-container">
-        <img src="./img/massage3.jpg" alt="" />
-      </div>
+      <div className="img-container"></div>
     </div>
   );
 };
