@@ -2,16 +2,20 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Header from "../Component/Header";
 import massage from "../img/massage.jpg";
+import facebook from "../img/facebook.png";
+import instagram from "../img/instagram.png";
+import esthetique from "../img/esthétique.jpg";
+import galerie from "../img/galerie.jpg";
 
 const Home = () => {
   return (
     <div className="App">
       <ul className="media">
         <li>
-          <img src="../img/facebook.png" alt="" />
+          <img src={facebook} alt="" />
         </li>
         <li>
-          <img src="./img/instagram.png" alt="" />
+          <img src={instagram} alt="" />
         </li>
       </ul>
       <header>
@@ -26,13 +30,13 @@ const Home = () => {
         </NavLink>
         <NavLink to="/esthetique">
           <li>
-            <img src="./img/esthétique.jpg" alt="" />
+            <img src={esthetique} alt="" />
             <h2>Soins esthétiques</h2>
           </li>
         </NavLink>
         <NavLink to="/galerie">
           <li>
-            <img src="./img/galerie.jpg" alt="" />
+            <img src={galerie} alt="" />
             <h2>Galerie</h2>
           </li>
         </NavLink>

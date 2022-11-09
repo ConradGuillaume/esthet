@@ -1,4 +1,5 @@
 import React from "react";
+import massage from "../img/massage3.jpg";
 
 const Massage = () => {
   return (
@@ -33,7 +34,7 @@ const Massage = () => {
           <p>Prix€</p>
         </article>
       </div>
-      <div className="img-container"></div>
+      <img src={massage} alt="" />
     </div>
   );
 };
