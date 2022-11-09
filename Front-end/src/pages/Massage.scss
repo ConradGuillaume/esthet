@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  .container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: $color-2;
+    header {
+      width: 100%;
+      height: 30%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      background-color: $color-1;
+      clip-path: polygon(100% 0, 0 0, 100% 100%);
+      h1 {
+        width: 100%;
+        padding: 0;
+        margin: 25px 35px;
+      }
+    }
+    .massage-container {
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      transform: translateY(-200px);
+      article {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 0px 6px 3px $color-4;
+        align-items: center;
+        background: $color-3;
+        border-radius: 0px 60px 60px 0px;
+        width: 90%;
+        margin: 15px 0px;
+        height: 80px;
+        transition: ease-in-out 0.3s;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.03);
+          box-shadow: 0px 0px 8px 4px $color-4;
+        }
+
+        h2 {
+          display: flex;
+          height: 50%;
+          font-size: 19px;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+          margin: 0;
+          width: 60%;
+          background: transparent;
+        }
+        button {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-end;
+          position: relative;
+          margin-left: 0%;
+          height: 100%;
+          width: 20%;
+          min-width: 78px;
+          clip-path: polygon(0 0, 0% 100%, 100% 100%);
+        }
+
+        p {
+          display: flex;
+          color: white;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          width: 20%;
+          max-width: 78px;
+          height: 100%;
+          background: $color-4;
+          border-radius: 0px 60px 60px 0px;
+        }
+      }
+    }
+
+    .img-container {
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      bottom: 0%;
+      z-index: -1;
+
+      img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        object-fit: cover;
+        opacity: 80%;
+        clip-path: polygon(53% 30%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 64%);
+      }
+    }
+  }
+}
