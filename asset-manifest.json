@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/esthet/static/css/main.071bd48c.css",
+    "main.js": "/esthet/static/js/main.a10b8438.js",
+    "static/media/JosefinSans-ExtraLight.ttf": "/esthet/static/media/JosefinSans-ExtraLight.6173372a87f9785d3540.ttf",
+    "static/media/JosefinSans-Regular.ttf": "/esthet/static/media/JosefinSans-Regular.c2462bfe030916f43ab4.ttf",
+    "static/media/JosefinSans-Bold.ttf": "/esthet/static/media/JosefinSans-Bold.5cc7b0d19c96e8c83733.ttf",
+    "index.html": "/esthet/index.html",
+    "main.071bd48c.css.map": "/esthet/static/css/main.071bd48c.css.map",
+    "main.a10b8438.js.map": "/esthet/static/js/main.a10b8438.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071bd48c.css",
+    "static/js/main.a10b8438.js"
+  ]
+}
