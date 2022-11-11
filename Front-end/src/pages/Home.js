@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Header from "../Component/Header";
 import massage from "../img/massage.jpg";
 import facebook from "../img/facebook.png";
 import instagram from "../img/instagram.png";
@@ -10,6 +9,7 @@ import galerie from "../img/galerie.jpg";
 const Home = () => {
   return (
     <div className="App">
+      <h1>Instant pour soi</h1>
       <ul className="media">
         <li>
           <img src={facebook} alt="" />
@@ -18,9 +18,7 @@ const Home = () => {
           <img src={instagram} alt="" />
         </li>
       </ul>
-      <header>
-        <Header />
-      </header>
+      <header></header>
       <ul className="main-container">
         <NavLink to="/massage">
           <li>

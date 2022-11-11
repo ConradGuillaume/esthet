@@ -1,10 +1,23 @@
 .App {
   height: 100%;
   position: fixed;
+  z-index: 0;
   header {
     height: 30%;
     background: $color-1;
     clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+  h1 {
+    z-index: 90;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    color: black;
+
+    background: transparent;
   }
   .media {
     position: absolute;

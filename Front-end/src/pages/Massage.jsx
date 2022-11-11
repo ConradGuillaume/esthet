@@ -1,12 +1,13 @@
 import React from "react";
+import NavigationSite from "../Component/NavigationSite";
 import massage from "../img/massage3.jpg";
 
 const Massage = () => {
   return (
     <div className="container">
-      <header>
-        <h1>Massage bien-être</h1>
-      </header>
+      <NavigationSite />
+      <h1>Massage bien-être</h1>
+      <header></header>
       <div className="massage-container">
         <article>
           <button>Réserver</button>
@@ -34,7 +35,7 @@ const Massage = () => {
           <p>Prix€</p>
         </article>
       </div>
-      <img src={massage} alt="" />
+      <img className="massage" src={massage} alt="" />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import NavigationSite from "../Component/NavigationSite";
 
 const Esthetique = () => {
   const [Epilation, SetEpilation] = useState(true);
@@ -9,9 +10,9 @@ const Esthetique = () => {
   return (
     <div>
       <div className="main-container-est">
-        <header>
-          <h1>Soins Esthétiques</h1>
-        </header>
+        <NavigationSite />
+        <h1>Soins Esthétiques</h1>
+        <header></header>
         <article>
           <div className="button-select">
             <button
