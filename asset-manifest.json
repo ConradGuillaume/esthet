@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/esthet/static/css/main.9d69fdd6.css",
-    "main.js": "/esthet/static/js/main.64bb86c7.js",
+    "main.css": "/esthet/static/css/main.3efcf67b.css",
+    "main.js": "/esthet/static/js/main.e0983b0b.js",
     "static/media/esth.jpg": "/esthet/static/media/esth.c9183bfd50137c17fc62.jpg",
     "static/media/massage3.jpg": "/esthet/static/media/massage3.4d43a7b8a3341a517605.jpg",
     "static/media/esthétique.jpg": "/esthet/static/media/esthétique.bedc0aba6c434bad567f.jpg",
@@ -11,11 +11,11 @@
     "static/media/galerie.jpg": "/esthet/static/media/galerie.38b1ac634d0de62e22f5.jpg",
     "static/media/massage.jpg": "/esthet/static/media/massage.486dadbe0b65fe5db495.jpg",
     "index.html": "/esthet/index.html",
-    "main.9d69fdd6.css.map": "/esthet/static/css/main.9d69fdd6.css.map",
-    "main.64bb86c7.js.map": "/esthet/static/js/main.64bb86c7.js.map"
+    "main.3efcf67b.css.map": "/esthet/static/css/main.3efcf67b.css.map",
+    "main.e0983b0b.js.map": "/esthet/static/js/main.e0983b0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d69fdd6.css",
-    "static/js/main.64bb86c7.js"
+    "static/css/main.3efcf67b.css",
+    "static/js/main.e0983b0b.js"
   ]
 }
