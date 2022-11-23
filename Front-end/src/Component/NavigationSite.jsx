@@ -1,18 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import arrow from "../img/right-arrow.png";
 
 const NavigationSite = () => {
   return (
-    <div>
-      <img
-        className="back"
-        src={arrow}
-        alt=""
-        onClick={() => {
-          window.location.href = "/";
-        }}
-      />
-    </div>
+    <NavLink to="/" className="nav">
+      <img className="back" src={arrow} alt="" />
+    </NavLink>
   );
 };
 
