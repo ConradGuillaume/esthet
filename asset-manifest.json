@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/esthet/static/css/main.b6fa1c92.css",
-    "main.js": "/esthet/static/js/main.6bacd9c3.js",
+    "main.js": "/esthet/static/js/main.2699f627.js",
     "static/media/flower.jpg": "/esthet/static/media/flower.2334b3b4041f1a2eb34f.jpg",
     "static/media/esth.jpg": "/esthet/static/media/esth.c9183bfd50137c17fc62.jpg",
     "static/media/massage3.jpg": "/esthet/static/media/massage3.4d43a7b8a3341a517605.jpg",
@@ -13,10 +13,10 @@
     "static/media/massage.jpg": "/esthet/static/media/massage.486dadbe0b65fe5db495.jpg",
     "index.html": "/esthet/index.html",
     "main.b6fa1c92.css.map": "/esthet/static/css/main.b6fa1c92.css.map",
-    "main.6bacd9c3.js.map": "/esthet/static/js/main.6bacd9c3.js.map"
+    "main.2699f627.js.map": "/esthet/static/js/main.2699f627.js.map"
   },
   "entrypoints": [
     "static/css/main.b6fa1c92.css",
-    "static/js/main.6bacd9c3.js"
+    "static/js/main.2699f627.js"
   ]
 }
