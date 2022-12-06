@@ -6,14 +6,14 @@ import { AnimatePresence, delay, motion } from "framer-motion";
 
 const homeVariant = {
   hidden: {
-    y: "-100vh",
+    y: "100vh",
   },
   visible: {
     y: 0,
     transition: { duration: 1.5 },
   },
   exit: {
-    y: "100vh",
+    y: "-100vh",
     transition: { duration: 1.5 },
   },
 };
