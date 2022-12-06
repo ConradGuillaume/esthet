@@ -1,6 +1,20 @@
 import React from "react";
 import { useState } from "react";
 import NavigationSite from "../Component/NavigationSite";
+import { motion } from "framer-motion";
+const homeVariant = {
+  hidden: {
+    y: "-100vh",
+  },
+  visible: {
+    y: 0,
+    transition: {  duration: 1.5 },
+  },
+  exit: {
+    y: "100vh",
+    transition: { duration: 1.5 },
+  },
+};
 
 const Esthetique = () => {
   const [Epilation, SetEpilation] = useState(true);
@@ -9,7 +23,13 @@ const Esthetique = () => {
   const [exit, SetExit] = useState(0);
   return (
     <div>
-      <div className="main-container-est">
+      <motion.div
+        variants={homeVariant}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+        className="main-container-est"
+      >
         <NavigationSite />
         <h1>Soins Esthétiques</h1>
         <header></header>
@@ -95,7 +115,7 @@ const Esthetique = () => {
           </div>
         </article>
         <footer>footer</footer>
-      </div>
+      </motion.div>
     </div>
   );
 };

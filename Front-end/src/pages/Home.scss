@@ -52,6 +52,11 @@
     flex-direction: column;
     transform: translateY(-80px);
     z-index: 2;
+    @media (min-width: 1000px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
 
     li {
       overflow: hidden;
@@ -71,6 +76,23 @@
       &:hover {
         transform: scale(1.05);
       }
+      @media (min-width: 600px) {
+        width: 500px;
+        height: 160px;
+      }
+      @media (min-width: 1000px) {
+        width: 300px;
+        height: 350px;
+      }
+      @media (min-width: 1300px) {
+        width: 400px;
+        height: 400px;
+      }
+      @media (min-width: 1450px) {
+        width: 450px;
+        height: 450px;
+      }
+
       img {
         height: 70%;
         width: 100%;

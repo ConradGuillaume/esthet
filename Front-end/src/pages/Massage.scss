@@ -4,6 +4,7 @@ body {
   position: fixed;
   z-index: 0;
   .container {
+    position: relative;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -30,24 +31,26 @@ body {
     }
 
     .massage-container {
-      height: 60%;
+      position: relative;
+      height: 80%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-around;
       align-items: flex-start;
-      transform: translateY(-100px);
+      transform: translateY(-150px);
 
       article {
+        position: relative;
+        overflow: hidden;
         display: flex;
         justify-content: space-between;
         box-shadow: 0px 0px 6px 3px $color-4;
         align-items: center;
         background: $color-1;
-        border-radius: 0px 60px 60px 0px;
+        border-radius: 0px 5px 5px 0px;
         width: 90%;
-        margin: 15px 0px;
-        height: 80px;
-        transition: ease-in-out 0.3s;
+        margin: 0px 0px;
+        height: 100px;
         cursor: pointer;
         &:hover {
           transform: scale(1.03);
@@ -64,6 +67,7 @@ body {
           margin: 0;
           width: 60%;
           background: transparent;
+          cursor: pointer;
         }
         button {
           display: flex;
@@ -91,7 +95,7 @@ body {
           max-width: 78px;
           height: 100%;
           background: $color-3;
-          border-radius: 0px 60px 60px 0px;
+          border-radius: 0px 5px 5px 0px;
         }
       }
     }
@@ -104,6 +108,66 @@ body {
       z-index: -1;
       object-fit: cover;
       clip-path: polygon(53% 30%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 64%);
+    }
+  }
+  .modal-contain {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: (blur(5px));
+    .modal {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: $color-4;
+      border: 3px groove $color-4;
+      border-radius: 5px;
+      width: 80%;
+      height: 60%;
+      button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 10%;
+        font-size: 29px;
+        color: $color-4;
+        z-index: 2;
+        font-weight: bold;
+        border: none;
+        background: transparent;
+        width: 40px;
+        cursor: pointer;
+      }
+      h3 {
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $color-1;
+        color: $color-4;
+        font-size: 22px;
+        width: 100%;
+        height: 10%;
+        margin: 0;
+        text-align: center;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: white;
+        height: 90%;
+        width: 70%;
+      }
     }
   }
 }
