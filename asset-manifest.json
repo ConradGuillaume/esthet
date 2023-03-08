@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/esthet/static/css/main.2aecee30.css",
-    "main.js": "/esthet/static/js/main.7918b686.js",
+    "main.css": "/esthet/static/css/main.d411857c.css",
+    "main.js": "/esthet/static/js/main.00fa2a5b.js",
     "static/media/maquille.jpg": "/esthet/static/media/maquille.bb55d25eb546cb0cdf7a.jpg",
     "static/media/epilation.jpg": "/esthet/static/media/epilation.d21e75314c38466ee765.jpg",
     "static/media/massage3.jpg": "/esthet/static/media/massage3.4d43a7b8a3341a517605.jpg",
-    "static/media/esthétique.jpg": "/esthet/static/media/esthétique.bedc0aba6c434bad567f.jpg",
+    "static/media/BonheurRoyale-Regular.ttf": "/esthet/static/media/BonheurRoyale-Regular.865dc4874d56f881fabe.ttf",
     "static/media/JosefinSans-ExtraLight.ttf": "/esthet/static/media/JosefinSans-ExtraLight.6173372a87f9785d3540.ttf",
     "static/media/JosefinSans-Regular.ttf": "/esthet/static/media/JosefinSans-Regular.c2462bfe030916f43ab4.ttf",
     "static/media/JosefinSans-Bold.ttf": "/esthet/static/media/JosefinSans-Bold.5cc7b0d19c96e8c83733.ttf",
-    "static/media/galerie.jpg": "/esthet/static/media/galerie.38b1ac634d0de62e22f5.jpg",
-    "static/media/LaBelleAurore-Regular.ttf": "/esthet/static/media/LaBelleAurore-Regular.bc43b15661f3e942b3f6.ttf",
-    "static/media/massage.jpg": "/esthet/static/media/massage.486dadbe0b65fe5db495.jpg",
+    "static/media/bol.jpg": "/esthet/static/media/bol.ba84aee40e2bc9afbf4c.jpg",
     "index.html": "/esthet/index.html",
-    "main.2aecee30.css.map": "/esthet/static/css/main.2aecee30.css.map",
-    "main.7918b686.js.map": "/esthet/static/js/main.7918b686.js.map"
+    "main.d411857c.css.map": "/esthet/static/css/main.d411857c.css.map",
+    "main.00fa2a5b.js.map": "/esthet/static/js/main.00fa2a5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aecee30.css",
-    "static/js/main.7918b686.js"
+    "static/css/main.d411857c.css",
+    "static/js/main.00fa2a5b.js"
   ]
 }
