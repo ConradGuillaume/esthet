@@ -1,0 +1,17 @@
+svg {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  z-index: -1;
+}
+
+.st0 {
+  fill: none;
+}
+.st1 {
+  fill: $color-3;
+}
+.st2 {
+  fill: #ffffff;
+}

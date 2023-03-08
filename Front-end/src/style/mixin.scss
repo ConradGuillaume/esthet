@@ -1,0 +1,67 @@
+@use "./Setting.scss";
+
+@mixin reserved {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+  margin-left: 0%;
+  background: Setting.$color-3;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  height: 100%;
+  border: none;
+  padding: none;
+  width: 20%;
+  min-width: 78px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+@mixin title {
+  display: flex;
+  height: 100%;
+  font-size: 19px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  background: transparent;
+  cursor: pointer;
+}
+@mixin price {
+  display: flex;
+  color: rgb(255, 255, 255);
+  transform: translateX(0.5px);
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 900;
+  margin: 0;
+  width: 20%;
+  max-width: 78px;
+  padding-right: 2px;
+  height: 100%;
+  background: Setting.$color-4;
+  border-radius: 0px 5px 5px 0px;
+  clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+@mixin product {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 6px 3px Setting.$color-4;
+  align-items: center;
+  background: Setting.$color-1;
+  border-radius: 0px 15px 15px 0px;
+  width: 90%;
+  margin: 0px 0px;
+  border-top: 3px groove Setting.$color-4;
+  border-bottom: 3px groove Setting.$color-4;
+  height: 80px;
+  &:hover {
+    box-shadow: 0px 0px 8px 4px Setting.$color-1;
+  }
+  @media (max-width: 600px) {
+    height: 80px;
+  }
+}

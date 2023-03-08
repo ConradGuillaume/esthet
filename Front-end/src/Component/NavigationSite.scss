@@ -1,15 +1,16 @@
 .nav {
   position: absolute;
   rotate: (180deg);
-  top: 0%;
+  top: 1%;
+  left: 1%;
   cursor: pointer;
-  z-index: 50;
+  z-index: 20;
   height: 30px;
-  padding: 1% 2%;
+  padding: 1% 1%;
   img {
     cursor: pointer;
     height: 35px;
     width: 35px;
-    z-index: 90;
+    z-index: 20;
   }
 }
