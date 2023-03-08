@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/esthet/static/css/main.d411857c.css",
-    "main.js": "/esthet/static/js/main.00fa2a5b.js",
+    "main.js": "/esthet/static/js/main.f143d355.js",
     "static/media/maquille.jpg": "/esthet/static/media/maquille.bb55d25eb546cb0cdf7a.jpg",
     "static/media/epilation.jpg": "/esthet/static/media/epilation.d21e75314c38466ee765.jpg",
     "static/media/massage3.jpg": "/esthet/static/media/massage3.4d43a7b8a3341a517605.jpg",
@@ -12,10 +12,10 @@
     "static/media/bol.jpg": "/esthet/static/media/bol.ba84aee40e2bc9afbf4c.jpg",
     "index.html": "/esthet/index.html",
     "main.d411857c.css.map": "/esthet/static/css/main.d411857c.css.map",
-    "main.00fa2a5b.js.map": "/esthet/static/js/main.00fa2a5b.js.map"
+    "main.f143d355.js.map": "/esthet/static/js/main.f143d355.js.map"
   },
   "entrypoints": [
     "static/css/main.d411857c.css",
-    "static/js/main.00fa2a5b.js"
+    "static/js/main.f143d355.js"
   ]
 }
